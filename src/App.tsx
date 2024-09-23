@@ -1,20 +1,20 @@
 
 import './App.css'
-import Header from './header'
+import Header from './Header'
 import Card from './Card'
 
 function App() {
 
   return (
-    <div className="App">
+    <div> 
+    <div className="container fixed top-0 left-0 right-0 z-50">
        <Header />
-
-      <h1 className="text-3xl font-bold underline">
-        Hello World!
-      </h1>
-
-      <Card />
     </div>
+      <div className='container mx-auto mt-20 px-5 py-50'> 
+        <Card />
+      </div>
+      </div>
+
   )
 }
 
